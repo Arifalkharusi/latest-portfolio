@@ -1,0 +1,26 @@
+[
+  {
+    "title": "eCommerce",
+    "description": "This full-stack application combines the power of React JS for a dynamic and interactive user interface, Redux for efficient state management, Sass for styling, Node.js and Express for the backend server, MongoDB for data storage, and Stripe for secure payment processing.",
+    "live": "https://kanzu.netlify.app/",
+    "git": "https://github.com/Arifalkharusi/Kanzu"
+  },
+  {
+    "title": "Youtube Clone",
+    "description": "YouTube clone, built using Vite, ReactJS, TypeScript, TailwindCSS and Redux. Utilizing a youtube API, this clone is able to provide accurate and up-to-date information on all the videos available. Give it a try and see for yourself.",
+    "live": "https://youtube-repli.netlify.app/",
+    "git": "https://github.com/Arifalkharusi/Youtube"
+  },
+  {
+    "title": "Prime Video Clone",
+    "description": "A prime video clone built with React, Sass, and Redux is a web application that mimics Amazon Prime Video's functionality and design. It uses React to build reusable components for the user interface, Sass to style these components, and Redux to manage the app's state and data flow.",
+    "live": "https://prime-video123.netlify.app/",
+    "git": "https://github.com/Arifalkharusi/prime-video"
+  },
+  {
+    "title": "Uber Tax Calculator",
+    "description": "This Uber tax calculator site, built using React JS, The app features a user-friendly interface and includes a function to add income, millage and other expenses, making it easy for users to input their information and quickly calculate their estimated tax liability.",
+    "live": "https://merdern-taxcalc.netlify.app/",
+    "git": "https://github.com/Arifalkharusi/Modern-TaxCalculator"
+  }
+]
