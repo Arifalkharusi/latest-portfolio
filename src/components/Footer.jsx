@@ -16,12 +16,17 @@ const Footer = () => {
         <div className="text-xl">aaDev</div>
       </div>
       <div className="flex items-center justify-center gap-5 p-10 [&>a>i]:text-4xl [&>a>i]:transition-all [&>a>i]:duration-300 [&>a>i:hover]:text-blue-400 [&>a>i:hover]:-translate-y-1">
-        <a href="https://www.linkedin.com/in/arifalkharusi/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/arifalkharusi/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className=" fa-brands fa-linkedin"></i>
         </a>
         <a
           href="https://github.com/Arifalkharusi?tab=repositories"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa-brands fa-github"></i>
         </a>
