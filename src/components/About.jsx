@@ -4,7 +4,7 @@ import code from "../img/code.png";
 const About = () => {
   return (
     <div className="flex items-center justify-center w-full About">
-      <div className="w-full text-black bg-white text-[15px] flex justify-between gap-[50px] py-[100px]">
+      <div className="w-full text-black bg-white text-[15px] flex flex-col md:flex-row justify-between gap-[50px] py-[100px]">
         <div>
           <img src={code} alt="" className="w-full rounded-md" />
         </div>

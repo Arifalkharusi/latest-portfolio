@@ -16,11 +16,11 @@ const Home = () => {
 
   return (
     <div className="flex items-center justify-center w-full Home bg-primary">
-      <div className="flex items-center justify-start w-full h-screen gap-60">
-        <div className="flex flex-col gap-10">
-          <div className="flex flex-col gap-1 font-bold">
+      <div className="flex flex-col py-[120px] md:py-0 items-center justify-center w-full h-auto gap-10 md:justify-start md:h-screen md:gap-60 md:flex-row">
+        <div className="flex flex-col items-center gap-10 md:items-start">
+          <div className="flex flex-col items-center gap-1 font-bold md:items-start">
             <div className="text-2xl">Hello, I'm</div>
-            <div className="text-[50px]">
+            <div className="text-[40px] md:text-[50px]">
               Arif <span className="text-blue-400">Al Kharusi</span>
             </div>
             <div className="text-xl">
@@ -49,8 +49,8 @@ const Home = () => {
           </div>
         </div>
         <div className="relative">
-          <img src={me} alt="me" className="h-[350px] rounded-full" />
-          <ul className="absolute top-[50%] translate-y-[-50%] right-[-150px] flex flex-col gap-4">
+          <img src={me} alt="me" className="w-full max-w-md rounded-full" />
+          <ul className="absolute hidden xl:flex top-[50%] translate-y-[-50%] right-[-150px] flex-col gap-4">
             <li className="flex items-center">
               <img
                 src={plus}

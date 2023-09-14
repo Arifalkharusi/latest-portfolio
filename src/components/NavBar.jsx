@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed top-0 z-10 flex items-center justify-center w-full bg-primary">
-      <div className="flex items-center justify-between w-full">
+      <div className="flex flex-col items-center justify-between w-full gap-4 md:flex-row">
         <div className="flex items-center gap-1">
           <img src={logo} alt="logo" className="h-7" />
           <div className="text-xl">aaDev</div>
